@@ -6,7 +6,6 @@ package main
 	2 7 11 5      9
 
 */
-
 func twoSum(nums []int, target int) []int {
 	table := make(map[int]int)
 	for i, v := range nums {

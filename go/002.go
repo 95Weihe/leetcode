@@ -10,7 +10,6 @@ type ListNode struct {
 	请你将两个数相加，并以相同形式返回一个表示和的链表。
 	你可以假设除了数字 0 之外，这两个数都不会以 0开头
 */
-
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) (head *ListNode) {
 	var tail *ListNode
 	t := 0
