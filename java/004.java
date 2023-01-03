@@ -17,7 +17,6 @@ public double findMedianSortedArrays(int[] nums1, int[] nums2) {
             return nums1[m / 2];
             }
         }
-
     int count = 0;
     int i = 0, j = 0;
     while (count != (m + n)) {
