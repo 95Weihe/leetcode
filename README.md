@@ -1,6 +1,6 @@
 # 🔥 LeetCode 热题 HOT 100
 
-key to exercises
+*key to exercises*
 
  　　┏┓　　　┏┓+ +<br>
  　┏┛┻━━━┛┻┓ + +<br>
