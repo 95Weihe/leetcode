@@ -30,4 +30,5 @@
 004 [寻找两个正序数组的中位数](https://leetcode.cn/problems/median-of-two-sorted-arrays/?favorite=2cktkvj)  
 005 [最长回文子串](https://leetcode.cn/problems/longest-palindromic-substring/?favorite=2cktkvj)  
 010 [正则表达式匹配](https://leetcode.cn/problems/regular-expression-matching/?favorite=2cktkvj) | [go](https://github.com/95Weihe/leetcode/blob/main/go/010.go) [图示](https://github.com/95Weihe/leetcode/blob/main/go/image/010.png)  
-011 [盛最多水的容器](https://leetcode.cn/problems/container-with-most-water/?favorite=2cktkvj) | [go](https://github.com/95Weihe/leetcode/blob/main/go/011.go)
+011 [盛最多水的容器](https://leetcode.cn/problems/container-with-most-water/?favorite=2cktkvj) | [go](https://github.com/95Weihe/leetcode/blob/main/go/011.go)  
+015 [三数之和](https://leetcode.cn/problems/3sum/description/?favorite=2cktkvj) | [go](https://github.com/95Weihe/leetcode/blob/main/go/015.go)
