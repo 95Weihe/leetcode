@@ -41,9 +41,3 @@ func dfs(s string, digits string) {
 		s = s[0 : len(s)-1]
 	}
 }
-
-func main() {
-	//case1: "23"
-	res := letterCombinations("23")
-	println(res)
-}

@@ -43,9 +43,3 @@ func threeSum(nums []int) [][]int {
 	}
 	return res
 }
-
-func main() {
-	//case1: -1,0,1,2,-1,-4  case2: 0,1,1  case3: 0,0,0
-	res := threeSum([]int{-1, 0, 1, 2, -1, -4})
-	println(res)
-}

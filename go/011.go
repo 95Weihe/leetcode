@@ -23,16 +23,3 @@ func maxArea(height []int) int {
 	}
 	return res
 }
-func max(x, y int) int {
-	if x < y {
-		return y
-	}
-	return x
-}
-
-func main() {
-	//case1: [1,8,6,2,5,4,8,3,7]  49
-	var height = []int{1, 8, 6, 2, 5, 4, 8, 3, 7}
-	res := maxArea(height)
-	println(res)
-}
