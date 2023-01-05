@@ -16,6 +16,7 @@ class Solution {
 
 你可以假设除了数字 0 之外，这两个数都不会以 0 开头。
 */
+        //先判断是否有一个lian'bian
         if(l1 == null) return l2;
         if(l2 == null) return l1;
         int sum = l1.val + l2.val;
