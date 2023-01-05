@@ -39,7 +39,6 @@ public double findMedianSortedArrays(int[] nums1, int[] nums2) {
             nums[count++] = nums2[j++];
         }
     }
-
     if (count % 2 == 0) {
         return (nums[count / 2 - 1] + nums[count / 2]) / 2.0;
     } else {
