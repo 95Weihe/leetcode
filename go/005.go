@@ -22,10 +22,3 @@ func longestPalindrome(s string) string {
 	}
 	return res
 }
-
-func main() {
-	// case1 : "babad" -> bab/aba  case2: "cbbd" -> bb
-	s := "babad"
-	res := longestPalindrome(s)
-	println(res)
-}

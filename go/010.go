@@ -35,10 +35,3 @@ func isMatch(s string, p string) bool {
 	}
 	return f[0][0]
 }
-
-func main() {
-	//case1: 'aa' 'a*'  case2: 'aa'  '.*'
-	s, p := "aa", "a*"
-	res := isMatch(s, p)
-	println(res)
-}

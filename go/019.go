@@ -1,10 +1,5 @@
 package main
 
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
-
 /**
 给你一个链表，删除链表的倒数第 n 个结点，并且返回链表的头结点。
 思路：倒数 n 个，先求总长度，然后找到idx
@@ -31,15 +26,4 @@ func removeNthFromEnd(head *ListNode, n int) *ListNode {
 	}
 	p.Next = node.Next
 	return head
-}
-
-func main() {
-	head := &ListNode{
-		Val: 1,
-		Next: &ListNode{
-			Val: 2,
-		},
-	}
-	removeNthFromEnd(head, 1)
-	println(1)
 }
