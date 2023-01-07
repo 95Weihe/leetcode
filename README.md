@@ -33,4 +33,5 @@
 011 [盛最多水的容器](https://leetcode.cn/problems/container-with-most-water/?favorite=2cktkvj) | [go](https://github.com/95Weihe/leetcode/blob/main/go/011.go)  
 015 [三数之和](https://leetcode.cn/problems/3sum/description/?favorite=2cktkvj) | [go](https://github.com/95Weihe/leetcode/blob/main/go/015.go)  
 017 [电话号码的字母组合](https://leetcode.cn/problems/letter-combinations-of-a-phone-number/?favorite=2cktkvj) | [go](https://github.com/95Weihe/leetcode/blob/main/go/017.go)  
-019 [删除链表的倒数第n个结点](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/?favorite=2cktkvj) | [go](https://github.com/95Weihe/leetcode/blob/main/go/019.go)
+019 [删除链表的倒数第n个结点](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/?favorite=2cktkvj) | [go](https://github.com/95Weihe/leetcode/blob/main/go/019.go)  
+020 [有效的括号](https://leetcode.cn/problems/valid-parentheses/?favorite=2cktkvj) | [go](https://github.com/95Weihe/leetcode/blob/main/go/020.go)
