@@ -22,6 +22,7 @@ class Solution {
         int sum = l1.val + l2.val;
         ListNode ans = new ListNode(sum % 10);
         ans.next = addTwoNumbers(l1.next ,l2.next);
+
         if(sum > 9){
             ans.next = addTwoNumbers(ans.next, new ListNode(1));
         }
