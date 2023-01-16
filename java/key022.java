@@ -36,7 +36,6 @@ public class Solution {
         if (left < right) {
             return;
         }
-
         // 当还剩余左括号时，将左括号加入中间变量中，代表向左子树递归
         if (left < n) {
             dfs(curStr + "(", left + 1, right);
