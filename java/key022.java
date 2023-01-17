@@ -30,7 +30,6 @@ public class Solution {
             res.add(curStr);
             return;
         }
-
         // 剪枝：当已经使用的左括号的数量，已经比已经使用的右括号的数量少时
         // 说明curStr中的左括号数量少于右括号，那么必然不可能合法，因此剪枝
         if (left < right) {
