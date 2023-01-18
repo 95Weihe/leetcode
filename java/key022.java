@@ -18,7 +18,6 @@ public class Solution {
         dfs("", 0, 0);
         return res;
     }
-
     /**
      * @param curStr 递归到当前层中，公共变量已经存放的括号排列组合的中间结果
      * @param left   左括号已经用了几个
