@@ -12,6 +12,7 @@ class Solution {
             int index = s.charAt(i);
             start = Math.max(start, last[index]);
             res   = Math.max(res, i - last[index] + 1);
+            
             last[index] = i + 1;
         }
         return res;
