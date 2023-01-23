@@ -10,7 +10,6 @@ public class Solution {
         if (n == 0) {
             return res;
         }
-
         // 深度遍历：构造一个树，左子树为向结果字符串中添加左括号(，右子树为向结果字符串中添加右括号)
         dfs("", 0, 0);
         return res;
