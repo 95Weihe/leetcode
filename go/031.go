@@ -33,7 +33,3 @@ func reverse(nums *[]int, i, j int) {
 func swap(nums *[]int, i, j int) {
 	(*nums)[i], (*nums)[j] = (*nums)[j], (*nums)[i]
 }
-
-func main() {
-	nextPermutation([]int{3, 2, 1})
-}
