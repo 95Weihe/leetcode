@@ -32,7 +32,6 @@ public double findMedianSortedArrays(int[] nums1, int[] nums2) {
             }
             break;
         }
-
         if (nums1[i] < nums2[j]) {
             nums[count++] = nums1[i++];
         } else {
