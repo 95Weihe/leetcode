@@ -4,8 +4,9 @@ package main
 思路：回溯递归，按照全排列性质去递归即可，每个元素只用一次用 used 数组记录即可。
 */
 func permute(nums []int) [][]int {
-	path := make([]int, len(nums))
-	result, used := make([][]int, len(nums), len(nums)), make([]bool, len(nums), len(nums))
+	var path []int
+	var result [][]int
+	used := make([]bool, len(nums))
 	permuteDfs(nums, path, &result, &used)
 	return result
 }
