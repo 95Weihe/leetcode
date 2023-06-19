@@ -22,10 +22,8 @@ func (s sortRunes) Len() int {
 func groupAnagrams(strs []string) [][]string {
 	record, res := map[string][]string{}, [][]string{}
 	for _, str := range strs {
-
 		sByte := []rune(str)
 		sort.Sort(sortRunes(sByte))
-
 		s := record[string(sByte)]
 		s = append(s, str)
 		record[string(sByte)] = s

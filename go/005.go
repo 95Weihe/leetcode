@@ -5,7 +5,6 @@ package main
 思路：DP，时间复杂度 O(n^2)，空间复杂度 O(n^2)
 f[i][j]表示i-j为回文串，即s[i-1] == s[j+1] 的时候f[i-1][j+1]也是。
 表达式为:f[i-1][j+1] == (s[i-1] == s[j+1]) && ((j - i < 3) || f[i][j])
-babad
 */
 func longestPalindrome(s string) string {
 	res, f := "", make([][]bool, len(s))
