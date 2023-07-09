@@ -15,12 +15,12 @@ func mergeKLists(lists []*ListNode) *ListNode {
 	}
 	c := lists[0]
 	for i := 1; i < len(lists); i++ {
-		c = merge(c, lists[i])
+		c = _merge(c, lists[i])
 	}
 	return c
 }
 
-func merge(p *ListNode, q *ListNode) *ListNode {
+func _merge(p *ListNode, q *ListNode) *ListNode {
 	if p == nil {
 		return q
 	}
@@ -29,10 +29,10 @@ func merge(p *ListNode, q *ListNode) *ListNode {
 	}
 
 	if p.Val < q.Val {
-		p.Next = merge(p.Next, q)
+		p.Next = _merge(p.Next, q)
 		return p
 	} else {
-		q.Next = merge(p, q.Next)
+		q.Next = _merge(p, q.Next)
 	}
 	return q
 }
