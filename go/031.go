@@ -12,12 +12,12 @@ func nextPermutation(nums []int) {
 	for ; k > 0 && nums[k-1] > nums[k]; k-- {
 	}
 	if k <= 0 {
-		reverse(&nums, 0, len(nums)-1)
+		reverse(nums, 0, len(nums)-1)
 	} else {
 		t := k
 		for ; t < len(nums) && nums[k-1] < nums[t]; t++ {
 		}
-		swap(&nums, k-1, t-1)
-		reverse(&nums, k, len(nums)-1)
+		swap(nums, k-1, t-1)
+		reverse(nums, k, len(nums)-1)
 	}
 }
