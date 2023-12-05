@@ -19,7 +19,7 @@ func min(x, y int) int {
 	return x
 }
 
-func reverse(nums *[]int, i, j int) {
+func reverse(nums []int, i, j int) {
 	for i < j {
 		swap(nums, i, j)
 		i++
@@ -27,6 +27,14 @@ func reverse(nums *[]int, i, j int) {
 	}
 }
 
-func swap(nums *[]int, i, j int) {
-	(*nums)[i], (*nums)[j] = (*nums)[j], (*nums)[i]
+func swap(nums []int, i, j int) {
+	nums[i], nums[j] = nums[j], nums[i]
+}
+
+func main() {
+	//board := [][]byte{{'A', 'B', 'C', 'E'}, {'S', 'F', 'C', 'S'}, {'A', 'D', 'E', 'E'}}
+
+	h := []int{1, 1, 1, 1, 4, 3, 5, 4}
+
+	println(largestRectangleArea(h))
 }
